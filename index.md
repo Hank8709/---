@@ -38,6 +38,8 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 
 ![](https://steamuserimages-a.akamaihd.net/ugc/940592594233259534/3C63C305E487534B1CD905EEE3F25B9F225D596F/) 
+
+<input id="https://steamuserimages-a.akamaihd.net/ugc/940592594233259534/3C63C305E487534B1CD905EEE3F25B9F225D596F/" type="https://steamuserimages-a.akamaihd.net/ugc/940592594233259534/3C63C305E487534B1CD905EEE3F25B9F225D596F/"/>
   
 <!DOCTYPE html>
 <html>
