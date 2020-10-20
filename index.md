@@ -39,7 +39,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 ![](https://steamuserimages-a.akamaihd.net/ugc/940592594233259534/3C63C305E487534B1CD905EEE3F25B9F225D596F/) 
 
-<input id="https://steamuserimages-a.akamaihd.net/ugc/940592594233259534/3C63C305E487534B1CD905EEE3F25B9F225D596F/" type="https://steamuserimages-a.akamaihd.net/ugc/940592594233259534/3C63C305E487534B1CD905EEE3F25B9F225D596F/"/>
+
   
 <!DOCTYPE html>
 <html>
@@ -53,5 +53,39 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 </html>
 
 ![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif) 
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Image preview on realtime</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+</head>
+<body>
+    
+    <h3>即時預覽Image</h3>
+    <form name="form0" id="form0" >
+        <input type="file" name="file0" id="file0" multiple="multiple" /><br>
+        <img src="" id="img0" >
+    </form>
+
+    <script>    
+    /**
+     * 使用HTML5 File API, 來即時預覽image
+     */
+    $("#file0").change(function(){
+        var reader = new FileReader();
+
+        reader.onload = function (event) {
+            $("#img0").attr("src", event.target.result) ;
+        }
+
+        reader.readAsDataURL(this.files[0]);
+
+    }) ;
+   
+    </script>
+</body>
+</html>
 
 
